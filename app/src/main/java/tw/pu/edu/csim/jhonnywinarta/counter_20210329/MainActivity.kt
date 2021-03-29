@@ -73,7 +73,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener, View.OnLongClick
             txv2.text = "press"
         }
         else if (event?.action == MotionEvent.ACTION_UP){
-            txv2.text = "Rrelease"
+            txv2.text = "Release"
         }
         return true
     }

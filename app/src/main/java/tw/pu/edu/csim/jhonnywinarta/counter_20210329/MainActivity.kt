@@ -70,10 +70,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener, View.OnLongClick
 
     override fun onTouch(v: View?, event: MotionEvent?): Boolean {
         if (event?.action == MotionEvent.ACTION_DOWN){
-            txv2.text = "Press"
+            txv2.text = "press"
         }
         else if (event?.action == MotionEvent.ACTION_UP){
-            txv2.text = "Release"
+            txv2.text = "Rrelease"
         }
         return true
     }
